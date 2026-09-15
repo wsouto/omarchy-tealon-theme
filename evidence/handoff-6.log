@@ -1,0 +1,7 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.00s
+     Running `/home/wsouto/Projects/omarchy/themes/.agents/skills/omarchy-theme-scaffold/scripts/theme-tool/target/debug/omarchy-theme-tool handoff . evidence/delivery-6.manifest`
+NOW local: PASS: authoring helper, syntax, resolved-palette, contrast, branding, media, image decode and handoff consistency checks passed
+NOW live: PASS within scope: local and Git-marked staging generated identical files; shell/menu/notification/terminal/Neovim/wallpaper/active borders observed; GTK dark mode/icons readable; previous theme/background restored. NOT RUN: Helix absent, lock screen, disabled states, mixed scales, login cycle
+NOT-RUN registry: Registry validation and submission deferred; wallpaper rights and code license unresolved
+NOT CHECKED: execution authenticity, prose completeness, remote URLs, image content/rights, live desktop acceptance, release readiness, registry submission.
+PASS: development handoff consistency only; failures and not-run checks above remain limits

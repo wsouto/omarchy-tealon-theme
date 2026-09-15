@@ -1,5 +1,7 @@
-# Media credits
+# Media and source credits
 
-- `backgrounds/01-geometric-leader.jpg` — supplied by the theme author as the visual reference; creator, source URL, licence, and redistribution permission: pending. It is not copied, transformed, or claimed as an original asset by this implementation.
+- `backgrounds/01-geometric-leader.jpg` — supplied by the theme author as the visual reference and development wallpaper. Creator, source URL, license, and redistribution permission: pending.
+- Palette and configuration consolidation — created for Tealon from the supplied artwork and the installed Omarchy 4.0.3-1 palette/template contract.
+- Earlier development used `omarchy-lumon-theme` as a structural reference. No Lumon/Severance branding, application extension, launcher, icon artwork, wallpaper, or video from that repository remains in the implementation.
 
-The theme's code/configuration is adapted from the local `omarchy-lumon-theme` structure and recolored for the supplied reference. This does not grant rights to Lumon/Severance branding or any third-party media.
+Code licensing does not establish artwork rights. Select a code license separately before release.

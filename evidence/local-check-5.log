@@ -1,0 +1,7 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.00s
+     Running `/home/wsouto/Projects/omarchy/themes/.agents/skills/omarchy-theme-scaffold/scripts/theme-tool/target/debug/omarchy-theme-tool check .`
+CONTRAST foreground/background: 13.80:1 (design target 4.5:1)
+CONTRAST foreground/selection: 6.78:1 (design target 4.5:1)
+CONTRAST accent/background: 8.31:1 (design target 3:1)
+NOT CHECKED: image decoding/dimensions, media rights, reserved/taken names, live rendering, upstream registry acceptance.
+PASS: local authoring subset only

@@ -1,0 +1,7 @@
+PASS TOML colors.toml
+PASS flat quoted palette syntax
+PASS minimal root file set
+PASS no stale branding in runtime/README files
+PASS local Markdown links
+PASS no repository symlinks
+backgrounds/01-geometric-leader.jpg JPEG 3840x2160 3840x2160+0+0 8-bit sRGB 1.41623MiB 0.000u 0:00.000

@@ -1,0 +1,13 @@
+Tealon live visual observations — Omarchy 4.0.3-1
+Environment: Wayland/Hyprland; DP-3 3440x1440; scale 1; sRGB preset.
+
+PASS desktop: supplied geometric wallpaper displayed; top bar used dark teal with readable light glyphs; cyan/coral window-edge details coordinated with the artwork; no visible stale Lumon-blue surfaces.
+PASS menu: root menu card used deep teal, readable light text, cyan selected treatment and border; rows were aligned with no visible clipping.
+PASS notification: title and body were readable on dark teal; cyan border/countdown was visible; no clipping observed.
+PASS terminal: Ghostty loaded the generated config; normal and bright ANSI samples were distinct and readable; bright black remained legible; active cyan window border was visible.
+PASS editor: generated Neovim theme opened /tmp/tealon-editor-test.rs; syntax groups and status line were readable with no visible clipping. Helix was attempted but marked NOT RUN because hx is not installed.
+PASS GTK integration: Nautilus rendered readably in Adwaita-dark with Yaru-blue icons. Current Omarchy only applies GTK color mode and icon selection, so full Tealon GTK surface recoloring is outside supported theme behavior.
+PASS shell restart: shell IPC responded after omarchy-restart-shell.
+PASS privacy cleanup: temporary full-screen captures used for inspection were deleted rather than shipped; no preview claim is made.
+NOT RUN lock screen: avoided locking the active user session.
+NOT RUN disabled states, mixed scales, second monitor, full login cycle and registry validation.
