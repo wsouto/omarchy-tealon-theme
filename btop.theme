@@ -1,0 +1,90 @@
+#                                                                                                             
+#                                                                                                             
+#                   @@@        @@@          @@                      @@         @@@        @@@                 
+#            @@@@          @@             @@                          @@            @@         @@@@           
+#          @@@           @@              @@                            @@             @@          @@@         
+#        @@@            @@               @@                            @@              @@           @@@       
+#       @@                                                                                            @@      
+#      @@                                                                                              @@     
+#    @              @@           @@         @@  @@  @@@  @@@ @@  @@@@      @@@@ @@    @@@@ @@             @   
+#    @@                                                                                                  @@   
+#     @@                                                                                                @@    
+#      @@              @@                @@                            @@                @@            @@     
+#        @@             @@               @@                            @@               @@           @@       
+#          @@            @@               @@                          @@               @@          @@         
+#               @@@         @@@            @@                        @@            @@         @@@             
+#                  @@@         @@           @@                      @@          @@@        @@@                
+#                                                                                                             
+#                                          ＵＮＩＴＥＤ ＩＮ 𝙎𝙀𝙑𝙀𝙍𝘼𝙉𝘾𝙀                                            
+
+# Main background, empty for terminal default, need to be empty if you want transparent background
+# theme[main_bg]=""
+theme_background=false
+
+# Main text color
+theme[main_fg]="#D6E7E8"
+
+# Title color for boxes
+theme[title]="#F0F7F7"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#158CA3"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#293A44"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#F0F7F7"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#293A44"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#B88C90"
+
+# Box outline and divider line color
+theme[cpu_box]="#158CA3"
+theme[mem_box]="#158CA3"
+theme[net_box]="#158CA3"
+theme[proc_box]="#158CA3"
+theme[div_line]="#293A44"
+
+# Gradient for all meters and graphs
+theme[temp_start]="#72E2EA"
+theme[temp_mid]="#B88C90"
+theme[temp_end]="#158CA3"
+
+
+theme[cpu_start]="#13738C"
+theme[cpu_mid]="#B88C90"
+theme[cpu_end]="#72E2EA"
+
+
+theme[free_start]="#24C4D3"
+theme[free_mid]="#B88C90"
+theme[free_end]="#E18A72"
+
+
+theme[cached_start]="#196075"
+theme[cached_mid]="#E18A72"
+theme[cached_end]="#13738C"
+
+
+theme[available_start]="#F0F7F7"
+theme[available_mid]="#72E2EA"
+theme[available_end]="#24C4D3"
+
+
+theme[used_start]="#158CA3"
+theme[used_mid]="#13738C"
+theme[used_end]="#AA4C37"
+
+
+theme[download_start]="#13738C"
+theme[download_mid]="#B88C90"
+theme[download_end]="#72E2EA"
+
+
+theme[upload_start]="#AA4C37"
+theme[upload_mid]="#158CA3"
+theme[upload_end]="#24C4D3"

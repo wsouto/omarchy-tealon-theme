@@ -1,0 +1,11 @@
+CONTRAST foreground/background: 13.80:1 (design target 4.5:1)
+CONTRAST foreground/selection: 6.78:1 (design target 4.5:1)
+CONTRAST accent/background: 8.31:1 (design target 3:1)
+WARN ignored by Git-installed theme staging: vscode.json
+WARN ignored by Git-installed theme staging: alacritty.toml
+WARN ignored by Git-installed theme staging: foot.ini
+WARN ignored by Git-installed theme staging: ghostty.conf
+WARN ignored by Git-installed theme staging: kitty.conf
+WARN ignored by Git-installed theme staging: neovim.lua
+NOT CHECKED: image decoding/dimensions, media rights, reserved/taken names, live rendering, upstream registry acceptance.
+PASS: local authoring subset only

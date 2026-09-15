@@ -1,0 +1,5 @@
+NOW local: Local palette helper passed; contrast foreground/background 13.80:1, foreground/selection 6.78:1, accent/background 8.31:1. Warnings: Git-installed staging omits alacritty.toml, foot.ini, ghostty.conf, kitty.conf, neovim.lua, vscode.json. Image rights, runtime and registry remain outside this check.
+NOT-RUN live: No live Omarchy desktop available; installation, rendering, reload and rollback unverified
+NOT-RUN registry: Registry validation and submission deferred
+NOT CHECKED: execution authenticity, prose completeness, remote URLs, image content/rights, live desktop acceptance, release readiness, registry submission.
+PASS: development handoff consistency only; failures and not-run checks above remain limits

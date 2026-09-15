@@ -1,4 +1,4 @@
 # state	kind	manifest	upstream	installed-version	command	result
-not-run	local	-	none	-	-	Local palette and syntax checks pending
-not-run	live	-	none	-	-	No live Omarchy desktop available; installation and rollback unverified
-not-run	registry	-	none	-	-	Registry validation deferred
+now	local	evidence/delivery-4.manifest	none	-	cargo run --manifest-path .agents/skills/omarchy-theme-scaffold/scripts/theme-tool/Cargo.toml -- check .	Local palette helper passed; contrast foreground/background 13.80:1, foreground/selection 6.78:1, accent/background 8.31:1. Warnings: Git-installed staging omits alacritty.toml, foot.ini, ghostty.conf, kitty.conf, neovim.lua, vscode.json. Image rights, runtime and registry remain outside this check.
+not-run	live	-	none	-	-	No live Omarchy desktop available; installation, rendering, reload and rollback unverified
+not-run	registry	-	none	-	-	Registry validation and submission deferred

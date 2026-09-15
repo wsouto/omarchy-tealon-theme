@@ -1,0 +1,49 @@
+/*                                                                                                              */
+/*                                                                                                              */
+/*                   @@@        @@@          @@                      @@         @@@        @@@                  */
+/*            @@@@          @@             @@                          @@            @@         @@@@            */
+/*          @@@           @@              @@                            @@             @@          @@@          */
+/*        @@@            @@               @@                            @@              @@           @@@        */
+/*       @@                                                                                            @@       */
+/*      @@                                                                                              @@      */
+/*    @              @@           @@         @@  @@  @@@  @@@ @@  @@@@      @@@@ @@    @@@@ @@             @    */
+/*    @@                                                                                                  @@    */
+/*     @@                                                                                                @@     */
+/*      @@              @@                @@                            @@                @@            @@      */
+/*        @@             @@               @@                            @@               @@           @@        */
+/*          @@            @@               @@                          @@               @@          @@          */
+/*               @@@         @@@            @@                        @@            @@         @@@              */
+/*                  @@@         @@           @@                      @@          @@@        @@@                 */
+/*                                                                                                              */
+/*                                               UNITED IN 𝙎𝙀𝙑𝙀𝙍𝘼𝙉𝘾𝙀                                            */
+
+/*
+   * Aether tokenized template for shared CSS color variables.
+   * Primary names: color0-color15 (matches colors.toml)
+*/
+
+  /* ANSI palette */
+  @define-color color0 #081B24;
+  @define-color color1 #AA4C37;
+  @define-color color2 #13738C;
+  @define-color color3 #CB6551;
+  @define-color color4 #158CA3;
+  @define-color color5 #B88C90;
+  @define-color color6 #24C4D3;
+  @define-color color7 #D6E7E8;
+  @define-color color8 #293A44;
+  @define-color color9 #E18A72;
+  @define-color color10 #196075;
+  @define-color color11 #F0B7A8;
+  @define-color color12 #F0F7F7;
+  @define-color color13 #D2A5A8;
+  @define-color color14 #72E2EA;
+  @define-color color15 #FFFFFF;
+
+  /* Optional semantic aliases */
+  @define-color background #081B24;
+  @define-color foreground #D6E7E8;
+  @define-color accent #158CA3;
+  @define-color selection_bg #0F5268;
+  @define-color selection_fg #060708;
+  @define-color cursor #F0F7F7;
