@@ -40,7 +40,7 @@ omarchy theme set tealon
 
 Do not overwrite a modified installed copy. A future published repository should document its exact URL for `omarchy theme install`; installation can replace an existing destination and immediately applies the theme.
 
-The theme names an icon set it does not ship. Omarchy's GNOME hook applies the contents of `icons.theme` verbatim with `gsettings set org.gnome.desktop.interface icon-theme`, so install `Mint-Breeze-Calm-Green-Icons` 1.4.16 on the icon search path first:
+The theme names an icon set it does not ship. Omarchy's GNOME hook applies the contents of `icons.theme` verbatim with `gsettings set org.gnome.desktop.interface icon-theme`, so download `Mint-Breeze-Calm-Green-Icons` 1.4.16 from <https://www.opendesktop.org/p/2324617> and install it on the icon search path first:
 
 ```bash
 mkdir -p ~/.local/share/icons
