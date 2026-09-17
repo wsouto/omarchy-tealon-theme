@@ -8,7 +8,7 @@
 
 Status: development preview  
 Intended Omarchy target: 4.x / Quattro  
-Tested installed Omarchy version: 4.0.3-1
+Tested installed Omarchy version: 4.0.4-1
 
 A dark architectural theme derived from the supplied geometric artwork: near-black voids, deep teal structures, electric cyan focus states, and coral signals.
 
@@ -28,7 +28,7 @@ The category badge is a community label, not certification. The target range is 
 - Warning: warm amber
 - Success: green-teal
 - Selection text: bright foreground on deep teal
-- Icons: `Yaru-blue`
+- Icons: `Mint-Breeze-Calm-Green-Icons` 1.4.16
 
 ## Install
 
@@ -40,6 +40,16 @@ omarchy theme set tealon
 
 Do not overwrite a modified installed copy. A future published repository should document its exact URL for `omarchy theme install`; installation can replace an existing destination and immediately applies the theme.
 
+The theme names an icon set it does not ship. Omarchy's GNOME hook applies the contents of `icons.theme` verbatim with `gsettings set org.gnome.desktop.interface icon-theme`, so install `Mint-Breeze-Calm-Green-Icons` 1.4.16 on the icon search path first:
+
+```bash
+mkdir -p ~/.local/share/icons
+tar -xJf Mint-Breeze-Calm-Green-Icons-1.4.16.tar.xz -C ~/.local/share/icons
+gtk-update-icon-cache -f -t ~/.local/share/icons/Mint-Breeze-Calm-Green-Icons
+```
+
+Without it GTK cannot resolve the name, falls back to `hicolor`, and the desktop keeps a mixed icon set. Nothing about the icon set is vendored in this repository.
+
 ## Rollback
 
 Run `omarchy theme set <previous-theme>`, restore the recorded background with `omarchy theme bg next` if necessary, and remove the development copy only after switching away. This procedure was exercised successfully on Omarchy 4.0.3-1.
@@ -48,12 +58,14 @@ Run `omarchy theme set <previous-theme>`, restore the recorded background with `
 
 - Complete semantic dark palette in `colors.toml`
 - Wallpaper/reference image in `backgrounds/`
-- `Yaru-blue` icon selection
+- `Mint-Breeze-Calm-Green-Icons` icon selection (installed separately, not vendored)
 - Palette-driven Omarchy-generated integrations rather than copied terminal, editor, shell, or legacy CSS files
 
 ## Validation limits
 
 On Omarchy 4.0.3-1, the theme was applied from both a local development symlink and a Git-marked staging copy. Both generated identical top-level theme files. The shell survived a restart, and the bar, root menu, notification, Ghostty ANSI palette, Neovim syntax theme, wallpaper, active borders, and GTK dark-mode/icon integration were observed. The previous theme and recorded wallpaper were restored.
+
+On Omarchy 4.0.4-1 the icon selection was replaced. `gtk-update-icon-cache` accepted the set extracted to `~/.local/share/icons/Mint-Breeze-Calm-Green-Icons`; GTK 4 then resolved `places/64/folder.svg`, `places/64/user-home.svg`, `mimetypes/64/text-x-generic.svg` and `apps/48/applications-system.svg` from that directory, and `omarchy theme set tealon` left `org.gnome.desktop.interface icon-theme` set to the new name. Only GTK icon lookup was verified this way; shell surfaces that resolve icons through Qt were not re-verified separately.
 
 Helix was not tested because it is not installed. Lock-screen interaction, disabled controls, mixed display scales, registry validation, and wallpaper redistribution rights remain unverified. GTK applications receive Omarchy's dark/light mode and icon selection; they do not receive a full Tealon GTK color stylesheet.
 
@@ -61,4 +73,4 @@ See [validation evidence](evidence/checks.tsv) and [the implementation report](R
 
 ## Credits and licensing
 
-See [CREDITS.md](CREDITS.md). Wallpaper redistribution permission and a code-license choice remain pending, so this development tree is not release-ready.
+See [CREDITS.md](CREDITS.md). The icon set is third-party GPL-3.0 artwork. Wallpaper redistribution permission and a code-license choice remain pending, so this development tree is not release-ready.
